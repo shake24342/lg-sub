@@ -1,0 +1,830 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+proxies:
+  - name: "lg1 | 日本-东京-B3-71"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: c3e20f84-46a0-4536-8021-c96d174efbd1
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.nl"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg1 | 日本-东京-B3-72"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: c3e20f84-46a0-4536-8021-c96d174efbd1
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.nl"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg1 | 日本-东京-B3-73"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: c3e20f84-46a0-4536-8021-c96d174efbd1
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.nl"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg1 | 日本-东京-B3-74"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: c3e20f84-46a0-4536-8021-c96d174efbd1
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.nl"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg1 | 日本-东京-B3-75"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: c3e20f84-46a0-4536-8021-c96d174efbd1
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.nl"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg2 | 日本-东京-B3-71"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 20e56f1f-e607-48e7-94a6-ac88bf34408c
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.cz"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg2 | 日本-东京-B3-72"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 20e56f1f-e607-48e7-94a6-ac88bf34408c
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.cz"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg2 | 日本-东京-B3-73"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 20e56f1f-e607-48e7-94a6-ac88bf34408c
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.cz"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg2 | 日本-东京-B3-74"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 20e56f1f-e607-48e7-94a6-ac88bf34408c
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.cz"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg2 | 日本-东京-B3-75"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 20e56f1f-e607-48e7-94a6-ac88bf34408c
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.cz"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg3 | 日本-东京-B3-71"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 84a2bee7-7ed1-44d6-8145-4f3c09636a8b
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.cr"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg3 | 日本-东京-B3-72"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 84a2bee7-7ed1-44d6-8145-4f3c09636a8b
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.cr"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg3 | 日本-东京-B3-73"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 84a2bee7-7ed1-44d6-8145-4f3c09636a8b
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.cr"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg3 | 日本-东京-B3-74"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 84a2bee7-7ed1-44d6-8145-4f3c09636a8b
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.cr"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg3 | 日本-东京-B3-75"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 84a2bee7-7ed1-44d6-8145-4f3c09636a8b
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.cr"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg4 | 日本-东京-B3-71"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: e154d958-7d31-4b75-8f75-e465acce8221
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sonylatvija.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg4 | 日本-东京-B3-72"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: e154d958-7d31-4b75-8f75-e465acce8221
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sonylatvija.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg4 | 日本-东京-B3-73"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: e154d958-7d31-4b75-8f75-e465acce8221
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sonylatvija.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg4 | 日本-东京-B3-74"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: e154d958-7d31-4b75-8f75-e465acce8221
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sonylatvija.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg4 | 日本-东京-B3-75"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: e154d958-7d31-4b75-8f75-e465acce8221
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sonylatvija.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg5 | 日本-东京-B3-71"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: da0ef399-2585-4312-940d-dbc1d49987c7
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.kz"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg5 | 日本-东京-B3-72"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: da0ef399-2585-4312-940d-dbc1d49987c7
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.kz"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg5 | 日本-东京-B3-73"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: da0ef399-2585-4312-940d-dbc1d49987c7
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.kz"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg5 | 日本-东京-B3-74"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: da0ef399-2585-4312-940d-dbc1d49987c7
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.kz"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg5 | 日本-东京-B3-75"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: da0ef399-2585-4312-940d-dbc1d49987c7
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.kz"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg6 | 日本-东京-B3-71"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 9cd52e13-27fc-45bb-b235-506e0e38f0e6
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.th"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg6 | 日本-东京-B3-72"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 9cd52e13-27fc-45bb-b235-506e0e38f0e6
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.th"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg6 | 日本-东京-B3-73"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 9cd52e13-27fc-45bb-b235-506e0e38f0e6
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.th"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg6 | 日本-东京-B3-74"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 9cd52e13-27fc-45bb-b235-506e0e38f0e6
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.th"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg6 | 日本-东京-B3-75"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 9cd52e13-27fc-45bb-b235-506e0e38f0e6
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.th"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg7 | 日本-东京-B3-71"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 4c137663-b304-45fe-a99b-79ffd6b45a0b
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.id"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg7 | 日本-东京-B3-72"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 4c137663-b304-45fe-a99b-79ffd6b45a0b
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.id"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg7 | 日本-东京-B3-73"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 4c137663-b304-45fe-a99b-79ffd6b45a0b
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.id"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg7 | 日本-东京-B3-74"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 4c137663-b304-45fe-a99b-79ffd6b45a0b
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.id"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg7 | 日本-东京-B3-75"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 4c137663-b304-45fe-a99b-79ffd6b45a0b
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.id"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg8 | 日本-东京-B3-71"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 7de72a99-6287-4ac3-b9a4-e603178c5cf5
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.com.br"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg8 | 日本-东京-B3-72"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 7de72a99-6287-4ac3-b9a4-e603178c5cf5
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.com.br"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg8 | 日本-东京-B3-73"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 7de72a99-6287-4ac3-b9a4-e603178c5cf5
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.com.br"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg8 | 日本-东京-B3-74"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 7de72a99-6287-4ac3-b9a4-e603178c5cf5
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.com.br"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg8 | 日本-东京-B3-75"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 7de72a99-6287-4ac3-b9a4-e603178c5cf5
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.com.br"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg9 | 日本-东京-B3-71"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 3ff4d68a-4855-4f66-a91d-5c1ca72d2347
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.com.tr"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg9 | 日本-东京-B3-72"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 3ff4d68a-4855-4f66-a91d-5c1ca72d2347
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.com.tr"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg9 | 日本-东京-B3-73"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 3ff4d68a-4855-4f66-a91d-5c1ca72d2347
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.com.tr"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg9 | 日本-东京-B3-74"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 3ff4d68a-4855-4f66-a91d-5c1ca72d2347
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.com.tr"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg9 | 日本-东京-B3-75"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 3ff4d68a-4855-4f66-a91d-5c1ca72d2347
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.com.tr"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg10 | 日本-东京-B3-71"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 11a6dc50-5bd6-495c-bc4c-9a7e682036ac
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.in"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg10 | 日本-东京-B3-72"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 11a6dc50-5bd6-495c-bc4c-9a7e682036ac
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.in"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg10 | 日本-东京-B3-73"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 11a6dc50-5bd6-495c-bc4c-9a7e682036ac
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.in"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg10 | 日本-东京-B3-74"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 11a6dc50-5bd6-495c-bc4c-9a7e682036ac
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.in"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+  - name: "lg10 | 日本-东京-B3-75"
+    type: vless
+    server: 74.82.202.174
+    port: 443
+    uuid: 11a6dc50-5bd6-495c-bc4c-9a7e682036ac
+    network: "tcp"
+    udp: true
+    tls: true
+    servername: "www.sony.co.in"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SbbN023FB-3_Ivs8Os8WPV0WebKbs-7mJFY1E_zi0yU"
+      short-id: "8a793bec5370ceef"
+proxy-groups:
+  - name: PROXY
+    type: select
+    proxies:
+      - "自动"
+      - "节点选择"
+      - "lg1 | 日本-东京-B3-71"
+      - "lg1 | 日本-东京-B3-72"
+      - "lg1 | 日本-东京-B3-73"
+      - "lg1 | 日本-东京-B3-74"
+      - "lg1 | 日本-东京-B3-75"
+      - "lg2 | 日本-东京-B3-71"
+      - "lg2 | 日本-东京-B3-72"
+      - "lg2 | 日本-东京-B3-73"
+      - "lg2 | 日本-东京-B3-74"
+      - "lg2 | 日本-东京-B3-75"
+      - "lg3 | 日本-东京-B3-71"
+      - "lg3 | 日本-东京-B3-72"
+      - "lg3 | 日本-东京-B3-73"
+      - "lg3 | 日本-东京-B3-74"
+      - "lg3 | 日本-东京-B3-75"
+      - "lg4 | 日本-东京-B3-71"
+      - "lg4 | 日本-东京-B3-72"
+      - "lg4 | 日本-东京-B3-73"
+      - "lg4 | 日本-东京-B3-74"
+      - "lg4 | 日本-东京-B3-75"
+      - "lg5 | 日本-东京-B3-71"
+      - "lg5 | 日本-东京-B3-72"
+      - "lg5 | 日本-东京-B3-73"
+      - "lg5 | 日本-东京-B3-74"
+      - "lg5 | 日本-东京-B3-75"
+      - "lg6 | 日本-东京-B3-71"
+      - "lg6 | 日本-东京-B3-72"
+      - "lg6 | 日本-东京-B3-73"
+      - "lg6 | 日本-东京-B3-74"
+      - "lg6 | 日本-东京-B3-75"
+      - "lg7 | 日本-东京-B3-71"
+      - "lg7 | 日本-东京-B3-72"
+      - "lg7 | 日本-东京-B3-73"
+      - "lg7 | 日本-东京-B3-74"
+      - "lg7 | 日本-东京-B3-75"
+      - "lg8 | 日本-东京-B3-71"
+      - "lg8 | 日本-东京-B3-72"
+      - "lg8 | 日本-东京-B3-73"
+      - "lg8 | 日本-东京-B3-74"
+      - "lg8 | 日本-东京-B3-75"
+      - "lg9 | 日本-东京-B3-71"
+      - "lg9 | 日本-东京-B3-72"
+      - "lg9 | 日本-东京-B3-73"
+      - "lg9 | 日本-东京-B3-74"
+      - "lg9 | 日本-东京-B3-75"
+      - "lg10 | 日本-东京-B3-71"
+      - "lg10 | 日本-东京-B3-72"
+      - "lg10 | 日本-东京-B3-73"
+      - "lg10 | 日本-东京-B3-74"
+      - "lg10 | 日本-东京-B3-75"
+  - name: 自动
+    type: fallback
+    proxies: ["lg1", "lg2", "lg3", "lg4", "lg5", "lg6", "lg7", "lg8", "lg9", "lg10"]
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+  - name: 节点选择
+    type: select
+    proxies:
+      - "lg1 | 日本-东京-B3-71"
+      - "lg1 | 日本-东京-B3-72"
+      - "lg1 | 日本-东京-B3-73"
+      - "lg1 | 日本-东京-B3-74"
+      - "lg1 | 日本-东京-B3-75"
+      - "lg2 | 日本-东京-B3-71"
+      - "lg2 | 日本-东京-B3-72"
+      - "lg2 | 日本-东京-B3-73"
+      - "lg2 | 日本-东京-B3-74"
+      - "lg2 | 日本-东京-B3-75"
+      - "lg3 | 日本-东京-B3-71"
+      - "lg3 | 日本-东京-B3-72"
+      - "lg3 | 日本-东京-B3-73"
+      - "lg3 | 日本-东京-B3-74"
+      - "lg3 | 日本-东京-B3-75"
+      - "lg4 | 日本-东京-B3-71"
+      - "lg4 | 日本-东京-B3-72"
+      - "lg4 | 日本-东京-B3-73"
+      - "lg4 | 日本-东京-B3-74"
+      - "lg4 | 日本-东京-B3-75"
+      - "lg5 | 日本-东京-B3-71"
+      - "lg5 | 日本-东京-B3-72"
+      - "lg5 | 日本-东京-B3-73"
+      - "lg5 | 日本-东京-B3-74"
+      - "lg5 | 日本-东京-B3-75"
+      - "lg6 | 日本-东京-B3-71"
+      - "lg6 | 日本-东京-B3-72"
+      - "lg6 | 日本-东京-B3-73"
+      - "lg6 | 日本-东京-B3-74"
+      - "lg6 | 日本-东京-B3-75"
+      - "lg7 | 日本-东京-B3-71"
+      - "lg7 | 日本-东京-B3-72"
+      - "lg7 | 日本-东京-B3-73"
+      - "lg7 | 日本-东京-B3-74"
+      - "lg7 | 日本-东京-B3-75"
+      - "lg8 | 日本-东京-B3-71"
+      - "lg8 | 日本-东京-B3-72"
+      - "lg8 | 日本-东京-B3-73"
+      - "lg8 | 日本-东京-B3-74"
+      - "lg8 | 日本-东京-B3-75"
+      - "lg9 | 日本-东京-B3-71"
+      - "lg9 | 日本-东京-B3-72"
+      - "lg9 | 日本-东京-B3-73"
+      - "lg9 | 日本-东京-B3-74"
+      - "lg9 | 日本-东京-B3-75"
+      - "lg10 | 日本-东京-B3-71"
+      - "lg10 | 日本-东京-B3-72"
+      - "lg10 | 日本-东京-B3-73"
+      - "lg10 | 日本-东京-B3-74"
+      - "lg10 | 日本-东京-B3-75"
+  - name: "lg1"
+    type: url-test
+    proxies: ["lg1 | 日本-东京-B3-71", "lg1 | 日本-东京-B3-72", "lg1 | 日本-东京-B3-73", "lg1 | 日本-东京-B3-74", "lg1 | 日本-东京-B3-75"]
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "lg2"
+    type: url-test
+    proxies: ["lg2 | 日本-东京-B3-71", "lg2 | 日本-东京-B3-72", "lg2 | 日本-东京-B3-73", "lg2 | 日本-东京-B3-74", "lg2 | 日本-东京-B3-75"]
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "lg3"
+    type: url-test
+    proxies: ["lg3 | 日本-东京-B3-71", "lg3 | 日本-东京-B3-72", "lg3 | 日本-东京-B3-73", "lg3 | 日本-东京-B3-74", "lg3 | 日本-东京-B3-75"]
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "lg4"
+    type: url-test
+    proxies: ["lg4 | 日本-东京-B3-71", "lg4 | 日本-东京-B3-72", "lg4 | 日本-东京-B3-73", "lg4 | 日本-东京-B3-74", "lg4 | 日本-东京-B3-75"]
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "lg5"
+    type: url-test
+    proxies: ["lg5 | 日本-东京-B3-71", "lg5 | 日本-东京-B3-72", "lg5 | 日本-东京-B3-73", "lg5 | 日本-东京-B3-74", "lg5 | 日本-东京-B3-75"]
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "lg6"
+    type: url-test
+    proxies: ["lg6 | 日本-东京-B3-71", "lg6 | 日本-东京-B3-72", "lg6 | 日本-东京-B3-73", "lg6 | 日本-东京-B3-74", "lg6 | 日本-东京-B3-75"]
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "lg7"
+    type: url-test
+    proxies: ["lg7 | 日本-东京-B3-71", "lg7 | 日本-东京-B3-72", "lg7 | 日本-东京-B3-73", "lg7 | 日本-东京-B3-74", "lg7 | 日本-东京-B3-75"]
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "lg8"
+    type: url-test
+    proxies: ["lg8 | 日本-东京-B3-71", "lg8 | 日本-东京-B3-72", "lg8 | 日本-东京-B3-73", "lg8 | 日本-东京-B3-74", "lg8 | 日本-东京-B3-75"]
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "lg9"
+    type: url-test
+    proxies: ["lg9 | 日本-东京-B3-71", "lg9 | 日本-东京-B3-72", "lg9 | 日本-东京-B3-73", "lg9 | 日本-东京-B3-74", "lg9 | 日本-东京-B3-75"]
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "lg10"
+    type: url-test
+    proxies: ["lg10 | 日本-东京-B3-71", "lg10 | 日本-东京-B3-72", "lg10 | 日本-东京-B3-73", "lg10 | 日本-东京-B3-74", "lg10 | 日本-东京-B3-75"]
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+rules: ["MATCH,PROXY"]
